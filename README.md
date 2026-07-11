@@ -13,7 +13,7 @@
     </style>
 <meta property="og:title" content="낭만의 도시 삿포로, 특별한 하루 자유여행">
     <meta property="og:description" content="미식과 쇼핑의 황금 밸런스">
-    <meta property="og:image" content="https://github.com/kyoungle/Sapporo/blob/main/Sapporo_city.jpg">
+    <meta property="og:image" content="https://github.com/kyoungle/Sapporo/blob/main/Sapporo_city2.jpg">
 </head>
 <body class="bg-gray-50 text-gray-800 antialiased">
 
