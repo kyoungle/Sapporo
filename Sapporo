@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>낭만의 도시 삿포로, 특별한 하루 자유여행</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome (아이콘용) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+        body { font-family: 'Noto Sans KR', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- 헤더 / 히어로 섹션 -->
+    <header class="relative bg-blue-900 text-white py-20 px-4 text-center overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center opacity-40" style="background-image: url('https://images.unsplash.com/photo-1542640244-7e672d6cef21?auto=format&fit=crop&w=1200&q=80');"></div>
+        <div class="relative z-10 max-w-3xl mx-auto">
+            <span class="bg-amber-500 text-slate-900 text-xs font-bold uppercase px-3 py-1 rounded-full">Package Free Day</span>
+            <h1 class="text-3xl md:text-5xl font-bold mt-4 mb-2 tracking-tight">삿포로 감성 충전, 완벽한 하루 패키지</h1>
+            <p class="text-lg text-blue-100 font-light">부모님의 체력까지 배려한 비 걱정 없는 동선, 미식과 쇼핑의 황금 밸런스</p>
+        </div>
+    </header>
+
+    <!-- 요약 포인트 & 총 예상 경비 -->
+    <section class="max-w-4xl mx-auto -mt-8 px-4 relative z-20">
+        <div class="bg-white rounded-xl shadow-xl p-6 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div class="border-b md:border-b-0 md:border-r border-gray-200 pb-4 md:pb-0">
+                <p class="text-sm text-gray-500 font-medium"><i class="fa-solid fa-umbrella text-blue-500 mr-1"></i> 우천 시 안심 동선</p>
+                <p class="text-base font-semibold mt-1 text-gray-700">지하보도(치카호) 적극 활용</p>
+            </div>
+            <div class="border-b md:border-b-0 md:border-r border-gray-200 pb-4 md:pb-0">
+                <p class="text-sm text-gray-500 font-medium"><i class="fa-solid fa-battery-three-quarters text-green-500 mr-1"></i> 부모님 안심 케어</p>
+                <p class="text-base font-semibold mt-1 text-gray-700">16:30 한 시간 호텔 중간 휴식</p>
+            </div>
+            <div>
+                <p class="text-sm text-gray-500 font-medium"><i class="fa-solid fa-wallet text-amber-500 mr-1"></i> 1인 기준 예상 경비</p>
+                <p class="text-xl font-bold mt-1 text-blue-600">약 ¥7,500 ~ ¥9,000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 일정 타임라인 섹션 -->
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold mb-8 text-center text-gray-900"><i class="fa-solid fa-calendar-day text-blue-600 mr-2"></i>상세 여행 일정표</h2>
+        
+        <p class="text-center text-xs text-gray-500 mb-6 -mt-4">* 일정을 클릭하면 관련 명소/음식 사진(새 창)을 확인하실 수 있습니다.</p>
+
+        <div class="relative border-l-2 border-blue-200 ml-4 md:ml-32">
+
+            <!-- 08:00 -->
+            <div class="mb-10 relative cursor-pointer group" onclick="window.open('https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=80')">
+                <div class="absolute -left-[43px] bg-white border-4 border-blue-500 rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-blue-500 transition-colors"></div>
+                <div class="absolute -left-36 top-0 hidden md:block w-28 text-right font-bold text-gray-600 text-lg">08:00 ~ 09:00</div>
+                <div class="bg-white p-5 rounded-lg shadow-md border border-gray-100 hover:border-blue-300 transition-all ml-4">
+                    <span class="md:hidden font-bold text-blue-600 text-sm block mb-1">08:00 ~ 09:00</span>
+                    <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors"><i class="fa-solid fa-utensils text-gray-500 mr-2"></i>호텔 조식 & 출발 준비</h3>
+                    <p class="text-gray-600 text-sm mt-2 font-light">부모님과 함께 천천히 식사를 즐기고 9시쯤 여유롭게 하루를 시작합니다.</p>
+                </div>
+            </div>
+
+            <!-- 09:05 -->
+            <div class="mb-10 relative cursor-pointer group" onclick="window.open('https://images.unsplash.com/photo-1551641506-ee5bf4cb45ff?auto=format&fit=crop&w=800&q=80')">
+                <div class="absolute -left-[43px] bg-white border-4 border-blue-500 rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-blue-500 transition-colors"></div>
+                <div class="absolute -left-36 top-0 hidden md:block w-28 text-right font-bold text-gray-600 text-lg">09:05</div>
+                <div class="bg-white p-5 rounded-lg shadow-md border border-gray-100 hover:border-blue-300 transition-all ml-4">
+                    <span class="md:hidden font-bold text-blue-600 text-sm block mb-1">09:05</span>
+                    <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors"><i class="fa-solid fa-subway text-gray-500 mr-2"></i>숙소 출발 → 삿포로역 이동</h3>
+                    <p class="text-gray-600 text-sm mt-2 font-light">나카지마공원역에서 지하철 난보쿠선 탑승 후 삿포로역으로 이동합니다. (약 10~15분 소요)</p>
+                    <div class="mt-2 text-xs bg-gray-100 text-gray-600 inline-block px-2 py-1 rounded">경비: 지하철 편도 ¥210</div>
+                </div>
+            </div>
+
+            <!-- 09:25 -->
+            <div class="mb-10 relative cursor-pointer group" onclick="window.open('https://images.unsplash.com/photo-1542640244-7e672d6cef21?auto=format&fit=crop&w=800&q=80')">
+                <div class="absolute -left-[43px] bg-white border-4 border-blue-500 rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-blue-500 transition-colors"></div>
+                <div class="absolute -left-36 top-0 hidden md:block w-28 text-right font-bold text-gray-600 text-lg">09:25 ~ 10:40</div>
+                <div class="bg-white p-5 rounded-lg shadow-md border border-gray-100 hover:border-blue-300 transition-all ml-4">
+                    <span class="md:hidden font-bold text-blue-600 text-sm block mb-1">09:25 ~ 10:40</span>
+                    <div class="flex items-center justify-between flex-wrap gap-2">
+                        <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors"><i class="fa-solid fa-building text-gray-500 mr-2"></i>JR타워 & 스텔라플레이스 탐방</h3>
+                        <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded font-medium">강력 추천 ★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mt-2 font-light">오전이라 인파가 적고 쾌적하며, 비가 와도 날씨의 영향을 받지 않는 최고의 실내 코스입니다.</p>
+                    <ul class="list-disc list-inside text-xs text-gray-500 mt-2 space-y-1 pl-1">
+                        <li><strong class="text-gray-700">JR타워 전망대(T38):</strong> TV타워보다 탁 트인 멋진 뷰를 자랑합니다.</li>
+                        <li><strong class="text-gray-700">다이마루 식품관:</strong> 부모님들의 눈과 입이 즐거워지는 프리미엄 푸드 마켓!</li>
+                    </ul>
+                    <div class="mt-3 text-xs bg-gray-100 text-gray-600 inline-block px-2 py-1 rounded">경비: 전망대 입장료 ¥740</div>
+                </div>
+            </div>
+
+            <!-- 10:50 -->
+            <div class="mb-10 relative cursor-pointer group" onclick="window.open('https://images.unsplash.com/photo-1591814468924-caf88d1232e1?auto=format&fit=crop&w=800&q=80')">
+                <div class="absolute -left-[43px] bg-white border-4 border-blue-500 rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-blue-500 transition-colors"></div>
+                <div class="absolute -left-36 top-0 hidden md:block w-28 text-right font-bold text-gray-600 text-lg">10:50 ~ 12:00</div>
+                <div class="bg-white p-5 rounded-lg shadow-md border border-gray-100 hover:border-blue-300 transition-all ml-4">
+                    <span class="md:hidden font-bold text-blue-600 text-sm block mb-1">10:50 ~ 12:00</span>
+                    <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors"><i class="fa-solid fa-bowl-food text-gray-500 mr-2"></i>점심 식사: 오쿠시바쇼텐 (스프카레)</h3>
+                    <p class="text-gray-600 text-sm mt-2 font-light">JR타워에서 도보 2~3분 거리. 웨이팅을 최소화하기 위해 11시 오픈 직전에 도착해 첫 턴 입장을 목표로 합니다.</p>
+                    <div class="bg-amber-50 p-3 rounded mt-3 text-xs border border-amber-200">
+                        <span class="font-bold text-amber-800"><i class="fa-solid fa-thumbs-up"></i> 부모님 추천 주문 가이드</span>
+                        <p class="text-amber-700 mt-1">깊고 시원한 <strong>새우 육수 Base</strong> + 부드러운 <strong>치킨레그</strong> 또는 <strong>함바그</strong> 조합. 맵기는 부모님 입맛에 딱 좋은 <strong>2단계</strong>를 추천합니다.</p>
+                    </div>
+                    <div class="mt-3 text-xs bg-gray-100 text-gray-600 inline-block px-2 py-1 rounded">경비: 스프카레 1인당 약 ¥1,500 ~ ¥2,000</div>
+                </div>
+            </div>
+
+            <!-- 12:10 -->
+            <div class="mb-10 relative cursor-pointer group" onclick="window.open('https://images.unsplash.com/photo-1508873696983-2df5199e4009?auto=format&fit=crop&w=800&q=80')">
+                <div class="absolute -left-[43px] bg-white border-4 border-blue-500 rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-blue-500 transition-colors"></div>
+                <div class="absolute -left-36 top-0 hidden md:block w-28 text-right font-bold text-gray-600 text-lg">12:10 ~ 13:00</div>
+                <div class="bg-white p-5 rounded-lg shadow-md border border-gray-100 hover:border-blue-300 transition-all ml-4">
+                    <span class="md:hidden font-bold text-blue-600 text-sm block mb-1">12:10 ~ 13:00</span>
+                    <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors"><i class="fa-solid fa-tree text-gray-500 mr-2"></i>오도리 공원 산책 (삿포로역 → 오도리)</h3>
+                    <p class="text-gray-600 text-sm mt-2 font-light">소화도 시킬 겸 삿포로역에서 오도리로 이동합니다. 비가 오면 지하보도(<span class="text-blue-600 font-medium">치카호</span>)를 이용해 쾌적하게 걷기 좋습니다.</p>
+                    <p class="text-xs text-gray-500 mt-1">💡 비가 약하면 공원 산책을 즐기고, 비가 거세지면 오도리 TV타워를 배경으로 기념사진만 빠르게 남겨보세요.</p>
+                </div>
+            </div>
+
+            <!-- 13:05 -->
+            <div class="mb-10 relative cursor-pointer group" onclick="window.open('https://images.unsplash.com/photo-1563114773-84221bd62ada?auto=format&fit=crop&w=800&q=80')">
+                <div class="absolute -left-[43px] bg-white border-4 border-blue-500 rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-blue-500 transition-colors"></div>
+                <div class="absolute -left-36 top-0 hidden md:block w-28 text-right font-bold text-gray-600 text-lg">13:05 ~ 13:40</div>
+                <div class="bg-white p-5 rounded-lg shadow-md border border-gray-100 hover:border-blue-300 transition-all ml-4">
+                    <span class="md:hidden font-bold text-blue-600 text-sm block mb-1">13:05 ~ 13:40</span>
+                    <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors"><i class="fa-solid fa-store text-gray-500 mr-2"></i>니조시장 (로컬 간식 타임)</h3>
+                    <p class="text-gray-600 text-sm mt-2 font-light">활기찬 홋카이도의 수산시장 분위기를 구경합니다. 대게는 패키지 식사에 포함될 확률이 높으니 이곳에서는 가벼운 별미 위주로 맛봅니다.</p>
+                    <div class="flex gap-2 mt-2">
+                        <span class="bg-orange-50 text-orange-700 text-xs px-2 py-1 rounded">🌽 달콤한 홋카이도 옥수수</span>
+                        <span class="bg-green-50 text-green-700 text-xs px-2 py-1 rounded">🍈 당도 높은 유바리 멜론</span>
+                    </div>
+                    <div class="mt-3 text-xs bg-gray-100 text-gray-600 inline-block px-2 py-1 rounded">경비: 과일/간식비 약 ¥500 ~ ¥1,000</div>
+                </div>
+            </div>
+
+            <!-- 13:50 -->
+            <div class="mb-10 relative cursor-pointer group" onclick="window.open('https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=800&q=80')">
+                <div class="absolute -left-[43px] bg-white border-4 border-blue-500 rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-blue-500 transition-colors"></div>
+                <div class="absolute -left-36 top-0 hidden md:block w-28 text-right font-bold text-gray-600 text-lg">13:50 ~ 15:40</div>
+                <div class="bg-white p-5 rounded-lg shadow-md border border-gray-100 hover:border-blue-300 transition-all ml-4">
+                    <span class="md:hidden font-bold text-blue-600 text-sm block mb-1">13:50 ~ 15:40</span>
+                    <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors"><i class="fa-solid fa-bag-shopping text-gray-500 mr-2"></i>다누키코지 아케이드 (핵심 쇼핑)</h3>
+                    <p class="text-gray-600 text-sm mt-2 font-light">지붕이 있는 대형 아케이드 거리라 비를 완벽하게 피할 수 있습니다. 삿포로 쇼핑의 성지에서 지인 선물과 홋카이도 한정 과자들을 득템해 보세요.</p>
+                    <div class="grid grid-cols-2 gap-2 mt-3 text-xs text-gray-600">
+                        <div>• 메가 돈키호테 / 사츠도라</div>
+                        <div>• 마츠모토키요시 (드럭스토어)</div>
+                        <div>• 로이스 초콜릿 / 시로이 코이비토</div>
+                        <div>• 산리오 캐릭터 숍</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 15:40 -->
+            <div class="mb-10 relative cursor-pointer group" onclick="window.open('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80')">
+                <div class="absolute -left-[43px] bg-white border-4 border-blue-500 rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-blue-500 transition-colors"></div>
+                <div class="absolute -left-36 top-0 hidden md:block w-28 text-right font-bold text-gray-600 text-lg">15:40 ~ 16:20</div>
+                <div class="bg-white p-5 rounded-lg shadow-md border border-gray-100 hover:border-blue-300 transition-all ml-4">
+                    <span class="md:hidden font-bold text-blue-600 text-sm block mb-1">15:40 ~ 16:20</span>
+                    <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors"><i class="fa-solid fa-coffee text-gray-500 mr-2"></i>감성 카페 휴식 & 체력 충전</h3>
+                    <p class="text-gray-600 text-sm mt-2 font-light">쇼핑으로 지친 부모님의 다리를 쉬어갈 아주 중요한 타이밍입니다. 취향에 맞는 브랜드 카페에서 30~40분간 힐링을 즐기세요.</p>
+                    <p class="text-xs text-gray-400 mt-2">선택지: 블루보틀 커피, 코메다 커피, 스타벅스 리저브 매장 등</p>
+                    <div class="mt-3 text-xs bg-gray-100 text-gray-600 inline-block px-2 py-1 rounded">경비: 음료 1인당 약 ¥600 ~ ¥900</div>
+                </div>
+            </div>
+
+            <!-- 16:30 -->
+            <div class="mb-10 relative cursor-pointer group" onclick="window.open('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80')">
+                <div class="absolute -left-[43px] bg-white border-4 border-blue-500 rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-blue-500 transition-colors"></div>
+                <div class="absolute -left-36 top-0 hidden md:block w-28 text-right font-bold text-gray-600 text-lg">16:30 ~ 17:10</div>
+                <div class="bg-white p-5 rounded-lg shadow-md border border-emerald-100 hover:border-emerald-300 bg-emerald-50/20 transition-all ml-4">
+                    <span class="md:hidden font-bold text-emerald-600 text-sm block mb-1">16:30 ~ 17:10</span>
+                    <div class="flex items-center gap-2">
+                        <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors"><i class="fa-solid fa-bed text-emerald-600 mr-2"></i>호텔 귀가 및 리프레시 휴식</h3>
+                        <span class="bg-emerald-100 text-emerald-800 text-xs px-2 py-0.5 rounded-full font-bold">꿀팁 ★</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mt-2 font-light">산 쇼핑 짐을 숙소에 내려놓고 침대에서 잠깐 누워 쉬는 시간. <strong>이 40분의 휴식이 부모님의 저녁 여행 만족도를 극대화</strong>시킵니다!</p>
+                </div>
+            </div>
+
+            <!-- 17:30 -->
+            <div class="mb-10 relative cursor-pointer group" onclick="window.open('https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80')">
+                <div class="absolute -left-[43px] bg-white border-4 border-blue-500 rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-blue-500 transition-colors"></div>
+                <div class="absolute -left-36 top-0 hidden md:block w-28 text-right font-bold text-gray-600 text-lg">17:30 ~ 19:00</div>
+                <div class="bg-white p-5 rounded-lg shadow-md border border-gray-100 hover:border-blue-300 transition-all ml-4">
+                    <span class="md:hidden font-bold text-blue-600 text-sm block mb-1">17:30 ~ 19:00</span>
+                    <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors"><i class="fa-solid fa-fire-burner text-gray-500 mr-2"></i>저녁 식사: ARCO (징기스칸 양고기)</h3>
+                    <p class="text-gray-600 text-sm mt-2 font-light">숙소에서 도보로 약 12~15분 이동. 17시 오픈 매장이기 때문에 피크타임 직전인 이 시간에 방문하면 웨이팅 없이 좋은 자리를 잡을 확률이 높습니다.</p>
+                    <div class="bg-slate-50 p-3 rounded mt-3 text-xs text-gray-700 border border-gray-200">
+                        <span class="font-bold"><i class="fa-solid fa-clipboard-list text-blue-500"></i> 추천 주문 조합:</span> 생램 + 어깨살 + 신선한 야채 구이 + 따끈한 밥 + 시원한 생맥주 🍺
+                    </div>
+                    <div class="mt-3 text-xs bg-gray-100 text-gray-600 inline-block px-2 py-1 rounded">경비: 징기스칸 1인당 약 ¥3,500 ~ ¥4,500</div>
+                </div>
+            </div>
+
+            <!-- 19:00 ~ -->
+            <div class="mb-6 relative cursor-pointer group" onclick="window.open('https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=80')">
+                <div class="absolute -left-[43px] bg-white border-4 border-blue-500 rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-blue-500 transition-colors"></div>
+                <div class="absolute -left-36 top-0 hidden md:block w-28 text-right font-bold text-gray-600 text-lg">19:00 ~ </div>
+                <div class="bg-white p-5 rounded-lg shadow-md border border-gray-100 hover:border-blue-300 transition-all ml-4">
+                    <span class="md:hidden font-bold text-blue-600 text-sm block mb-1">19:00 ~ </span>
+                    <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors"><i class="fa-solid fa-moon text-gray-500 mr-2"></i>스스키노 야경 명소 투어 & 호텔 복귀</h3>
+                    <p class="text-gray-600 text-sm mt-2 font-light">삿포로의 밤을 상징하는 시그니처 코스를 돌며 완벽하게 하루를 마무리합니다.</p>
+                    <div class="flex flex-col gap-1.5 mt-3 text-xs text-gray-600 bg-gray-50 p-3 rounded">
+                        <div>📸 <strong>스스키노 니카(NIKKA) 아저씨 전광판:</strong> 필수 인증샷 촬영!</div>
+                        <div>🎯 <strong>라운드원 & 메가 돈키호테:</strong> 가벼운 오락과 못다 한 심야 쇼핑 즐기기</div>
+                        <div>🏨 <strong>숙소 복귀:</strong> 소중한 추억을 가득 안고 안전하게 컴백</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- 하단 푸터 -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-xs border-t border-gray-800">
+        <p class="mb-1">본 일정은 부모님과의 소중한 여행을 위해 커스텀 제작된 가이드라인입니다.</p>
+        <p>&copy; 2026 Sapporo Premium Free Tour Plan. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
